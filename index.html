@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ExpertOS is an evidence-grounded case intelligence workspace for complex grant operations.">
+  <title>ExpertOS — Case Intelligence</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="ExpertOS home">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span>Expert<span>OS</span></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#method">Method</a>
+      <a href="#workspace">Live demo</a>
+      <a href="#principles">Principles</a>
+    </nav>
+    <a class="header-cta" href="#workspace">Explore the workflow <span aria-hidden="true">↘</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Evidence-grounded case intelligence</p>
+        <h1>Turn complex casework into <em>clear decisions.</em></h1>
+        <p class="hero-lede">ExpertOS brings policy rules, evidence, AI-guided planning, independent QA, and human judgment into one auditable workspace.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#workspace">Run a case <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="#method">See how it works <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-proof" aria-label="Product attributes">
+          <div><strong>7</strong><span>traceable checks</span></div>
+          <div><strong>3</strong><span>synthetic cases</span></div>
+          <div><strong>1</strong><span>human decision owner</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="ExpertOS case summary preview">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="preview-card">
+          <div class="preview-top">
+            <span class="mini-brand"><i></i> EXPERTOS</span>
+            <span class="status-pill"><i></i> Review ready</span>
+          </div>
+          <div class="case-heading">
+            <div><small>CASE GR-2026-001</small><h2>North Shore<br>Youth Lab</h2></div>
+            <div class="score-ring"><span>100</span><small>QA</small></div>
+          </div>
+          <div class="preview-grid">
+            <div><small>REQUEST</small><strong>$75,000</strong></div>
+            <div><small>PROGRAM</small><strong>Community innovation</strong></div>
+          </div>
+          <div class="rule-stack">
+            <div><span class="rule-icon pass">✓</span><p><strong>Funding request cap</strong><small>Grounded in requested amount</small></p><b>PASS</b></div>
+            <div><span class="rule-icon pass">✓</span><p><strong>Eligible organization</strong><small>Grounded in organization type</small></p><b>PASS</b></div>
+            <div><span class="rule-icon pass">✓</span><p><strong>Governance evidence</strong><small>Board resolution supplied</small></p><b>PASS</b></div>
+          </div>
+          <div class="preview-footer"><span>Evidence checked</span><strong>7 / 7</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement section-shell reveal">
+      <p>Most casework systems store information.</p>
+      <h2>ExpertOS helps teams understand <em>what the evidence means</em>—without hiding the judgment behind the machine.</h2>
+    </section>
+
+    <section class="method section-shell" id="method">
+      <div class="section-intro reveal">
+        <p class="eyebrow"><span></span> One continuous workflow</p>
+        <h2>From intake to expert review,<br><em>every step stays visible.</em></h2>
+      </div>
+      <div class="method-grid">
+        <article class="method-card reveal">
+          <div class="method-number">01</div>
+          <div class="method-icon rules-icon" aria-hidden="true">⌘</div>
+          <h3>Read the rules</h3>
+          <p>Deterministic checks test explicit policy requirements and point back to the exact evidence used.</p>
+          <span class="method-tag">EVIDENCE + RULES</span>
+        </article>
+        <article class="method-card featured reveal">
+          <div class="method-number">02</div>
+          <div class="method-icon" aria-hidden="true">✦</div>
+          <h3>Plan the work</h3>
+          <p>AI turns unresolved findings into prioritized tasks, while keeping recommendations separate from decisions.</p>
+          <span class="method-tag">GROUNDED PLANNING</span>
+        </article>
+        <article class="method-card reveal">
+          <div class="method-number">03</div>
+          <div class="method-icon" aria-hidden="true">◎</div>
+          <h3>Check independently</h3>
+          <p>A separate QA pass tests identity, completeness, blockers, evidence coverage, and plan consistency.</p>
+          <span class="method-tag">MULTI-AGENT QA</span>
+        </article>
+        <article class="method-card reveal">
+          <div class="method-number">04</div>
+          <div class="method-icon" aria-hidden="true">✓</div>
+          <h3>Keep humans in charge</h3>
+          <p>Experts review the full record, add reasoning, and own the action—with every change timestamped.</p>
+          <span class="method-tag">REVIEW + AUDIT</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="workspace-section" id="workspace">
+      <div class="section-shell workspace-intro reveal">
+        <p class="eyebrow light"><span></span> Interactive product demo</p>
+        <h2>Take a synthetic case<br><em>all the way through.</em></h2>
+        <p>Choose a case, run each stage, and watch ExpertOS build a traceable record. Everything here runs in your browser with fictional data.</p>
+      </div>
+
+      <div class="product-frame reveal" id="product-demo">
+        <div class="app-topbar">
+          <div class="app-brand"><span class="brand-mark small"><span></span><span></span><span></span></span> Expert<span>OS</span></div>
+          <div class="app-environment"><i></i> DEMO ENVIRONMENT</div>
+          <button class="icon-button" id="reset-demo" aria-label="Reset demo" title="Reset demo">↻</button>
+        </div>
+        <div class="app-body">
+          <aside class="case-sidebar">
+            <div class="side-title"><p>CASE QUEUE</p><span id="case-count">3</span></div>
+            <div id="case-list" class="case-list"></div>
+            <div class="synthetic-note"><strong>DEMO DATA</strong><p>All cases and program rules are synthetic.</p></div>
+          </aside>
+          <section class="case-workspace">
+            <div class="case-title-row">
+              <div><p id="active-id">GR-2026-001</p><h3 id="active-name">North Shore Youth Lab</h3><span id="active-summary"></span></div>
+              <div class="case-request"><small>REQUEST</small><strong id="active-amount">$75,000</strong></div>
+            </div>
+            <div class="stage-tabs" role="tablist" aria-label="Case workflow stages">
+              <button role="tab" class="stage-tab active" data-stage="rules"><b>1</b> Rules</button>
+              <button role="tab" class="stage-tab" data-stage="plan"><b>2</b> Case plan</button>
+              <button role="tab" class="stage-tab" data-stage="qa"><b>3</b> Independent QA</button>
+              <button role="tab" class="stage-tab" data-stage="review"><b>4</b> Expert review</button>
+              <button role="tab" class="stage-tab" data-stage="audit"><b>5</b> Audit</button>
+            </div>
+            <div id="stage-content" class="stage-content" aria-live="polite"></div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="principles section-shell" id="principles">
+      <div class="principles-copy reveal">
+        <p class="eyebrow"><span></span> Designed for accountable work</p>
+        <h2>AI should sharpen judgment.<br><em>Not replace it.</em></h2>
+        <p>ExpertOS separates what machines do well—checking, structuring, comparing—from the contextual judgment experts must own.</p>
+      </div>
+      <div class="principles-list reveal">
+        <article><span>01</span><div><h3>Evidence before inference</h3><p>Every rule result shows the field, document, or source that supports it.</p></div></article>
+        <article><span>02</span><div><h3>Uncertainty stays visible</h3><p>Missing evidence routes to review. The system does not fabricate confidence.</p></div></article>
+        <article><span>03</span><div><h3>Decisions stay human</h3><p>AI outputs remain advisory. Named reviewers own material actions and reasoning.</p></div></article>
+        <article><span>04</span><div><h3>History stays intact</h3><p>Case actions, generated artifacts, status changes, and reviews form one audit trail.</p></div></article>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="closing-shape" aria-hidden="true"></div>
+      <div class="section-shell reveal">
+        <p class="eyebrow light"><span></span> ExpertOS v0.2</p>
+        <h2>Complex cases.<br><em>Clearer work.</em></h2>
+        <a class="button warm" href="#workspace">Open the interactive demo <span aria-hidden="true">↑</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <div class="brand footer-brand"><span class="brand-mark"><span></span><span></span><span></span></span><span>Expert<span>OS</span></span></div>
+    <p>Evidence-grounded case intelligence.<br>Prototype with synthetic data—not funding or legal advice.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
